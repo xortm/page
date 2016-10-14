@@ -1,0 +1,54 @@
+
+.ui-pagnation {
+    height: 40px;
+    clear: both;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #888888;
+    line-height: 40px;
+    text-align: center
+}
+.ui-pagnation a {
+    margin-right: 4px;
+    border: 1px solid #e0e2e4;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0 7px;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ui-pagnation .next,.ui-pagnation .prev {
+    background-color: #e0e2e4;
+    border: 1px solid #00a0e9
+}
+.ui-pagnation .next:before,.ui-pagnation .prev:before {
+    content: '<';
+    color: #00a0e9;
+    font-size: 14px
+}
+.ui-pagnation .next:hover,.ui-pagnation .prev:hover {
+    border-color: #50c8ff
+}
+.ui-pagnation .next:hover:before,.ui-pagnation .prev:hover:before {
+    color: #50c8ff
+}
+.ui-pagnation .disable.next,.ui-pagnation .prev.disable {
+    background-color: #f3f4f8;
+    border-color: #a0a0a0;
+    cursor: no-drop;
+}
+.ui-pagnation .disable.next:before,.ui-pagnation .prev.disable:before {
+    color: #a0a0a0
+}
+.ui-pagnation .next:before {
+    content: '>'
+}
+.ui-pagnation .num.current,.ui-pagnation .num:hover {
+    background-color: #0077f0;
+    color: #fff
+}
+.prevd {
+    display: none;
+}

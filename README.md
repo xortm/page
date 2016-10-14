@@ -10,3 +10,5 @@ react+es6+webpack
 上一页goPrev | function
 下一页goNext | function
 单击翻页onCilc | function
+##
+page.css样式y仅供参考

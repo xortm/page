@@ -11,4 +11,4 @@ react+es6+webpack
 下一页goNext | function
 单击翻页onCilc | function
 ##
-page.css样式y仅供参考
+page.css样式仅供参考
